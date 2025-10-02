@@ -1,10 +1,7 @@
 package com.example.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.example.demo.example.Example;
 
 @SpringBootApplication
 public class InjectionSampleApplication {
@@ -15,11 +12,11 @@ public class InjectionSampleApplication {
 	}
 
 	/** DI */
-	@Autowired
-	private Example example;
+//	@Autowired
+//	private Example example;
 
 	/** 実行 */
 	private void exe() {
-		example.run();
+//		example.run();
 	}
 }
